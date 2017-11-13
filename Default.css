@@ -4,6 +4,7 @@ body
 }
 .navbar
 {
+	z-index: 99999999;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -19,14 +20,17 @@ body
 {
 	float: left;
 	margin-left: 25%;
+	z-index: 99999999;
 }
 .navbar .right
 {
 	float: right;
 	margin-right: 25%;
+	z-index: 99999999;
 }
 .navitem
 {
+	z-index: 99999999;
 	padding: 12px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -47,7 +51,8 @@ body
 }
 .content
 {
-	margin-top: 60px;
-	margin-left: 25%;
-	margin-right: 25%;
+	position: absolute;
+	top: 60px;
+	left: 25%;
+	right: 25%;
 }
